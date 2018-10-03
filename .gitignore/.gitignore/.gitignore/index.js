@@ -1,8 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-const tok = require("./token.json");
-
 let prefix = "f!";
 
 client.on("ready", () => {
